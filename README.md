@@ -2,7 +2,7 @@
 
 ## Description
 Python program that implements affine cipher, a substitution cipher.
-To encrypt, a formula is used: <br>
+To encrypt, a formula is used:
 <div align="center">E(x) = (ax + b) mod n</div>
 where:
 - "a" is in Z<sub>n</sub>
