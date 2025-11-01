@@ -3,14 +3,18 @@
 ## Description
 Python program that implements affine cipher, a substitution cipher.
 To encrypt, a formula is used:
+
 <div align="center">E(x) = (ax + b) mod n</div>
+
 where:
 - "a" is in Z<sub>n</sub>
 - "x" is the character to encrypt
 - "b" is in Z<sub>n</sub>*
 
 To decrypt, a formula is used:
+
 <div align="center">D(x) = (x-b)a<sup>-1</sup> mod n</div>
+
 Where:
 - "a<sup>-1</sup>" is the inverse of "a" 
 - "x" is the character to decrypt
